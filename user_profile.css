@@ -1,0 +1,138 @@
+/* .bg {
+  background-image: url("https://www.publicdomainpictures.net/pictures/30000/velka/blue-sky-1330598792xLu.jpg");
+
+  
+  height: 50%;
+  width: auto;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+} */
+
+.bg {
+  background: url("https://www.publicdomainpictures.net/pictures/30000/velka/blue-sky-1330598792xLu.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 50%;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+/* img {
+  width: 7%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.font {
+  font-size: 18px;
+  margin-top: 14px;
+}
+.set1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.set2 {
+  margin: 1% 35%;
+}
+
+.margin_bottom {
+  margin-bottom: 0px;
+}
+.testcolor {
+  color: aliceblue;
+}
+
+.background_image {
+  height: 362px;
+  width: 100%;
+}
+.profile_image {
+  width: 100% !important;
+}
+.profile {
+  position: relative;
+  width: 9%;
+  margin: 0 auto;
+}
+.social {
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  margin: 0% !important;
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  .profile {
+    width: 110px !important;
+  }
+  .padding_follow {
+    margin-left: 205px !important;
+    margin-right: 205px !important;
+  }
+  .padding_general {
+    margin-left: 205px !important;
+    margin-right: 205px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .background_image {
+    height: 297px;
+    width: 100%;
+  }
+  .profile_image {
+    width: 28%;
+    height: 10%;
+  }
+  .font {
+    font-size: 15px;
+  }
+  .flex {
+    display: flex;
+  }
+  .padding_follow {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .padding_general {
+    margin-left: 105px;
+  }
+  /* .social {
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    margin: 0% !important;
+  } */
+  .set2 {
+    font-size: 15px;
+  }
+  .social .col-3 {
+    padding: 0;
+  }
+  .profile {
+    width: 25%;
+    margin: 0 auto;
+  }
+  .button_padding {
+    padding-left: 5px;
+  }
+}
