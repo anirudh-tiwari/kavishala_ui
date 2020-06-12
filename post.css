@@ -1,37 +1,33 @@
-.yo {
+.circle_image_border {
   border-radius: 50%;
   border: 1px solid black;
   width: 45px;
 }
 
-.ani:hover {
-  opacity: 0.7;
-}
+ .image{
+  width: 100%; height: 305px;
+ }
 
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
+ .image_insider{
+   top: 15px; left: 90px; 
+ }
+ 
+ .date{
+   padding-right: 40px;
+ }
 
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
+ .circle_image1{
+   top: 245px; left: 960px;
+ }
 
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
+ .border1{
+  border: 1px dashed rgb(140, 140, 140);  margin-top:30px;
+ }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
+ .circle_image2{
+   top: 70px; left: 690px; 
+ }
 
-.avi {
-  display: none;
-}
-
-.ani:hover .avi {
-  display: block;
-}
+ .border2{
+  border: 1px dashed rgb(140, 140, 140); margin-top: 45px;
+ }
