@@ -1,0 +1,40 @@
+.scrollmenu {
+    background-color: rgb(247, 247, 247);
+    overflow: auto;
+    white-space: nowrap;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+  .scrollmenu a {
+    display: inline-block;
+    color: rgb(68, 68, 68);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .scrollmenu a:hover {
+    background-color: #777;
+  }
+
+  .card_text:hover{
+    color:rgb(0, 0, 0);
+  }
+  .btn{
+    color: rgb(242, 63, 45) !important;
+    background-color: rgb(255, 245, 244) !important;
+  }
+  .btn:hover{
+    color:blue !important;
+  }
+  .card_body:hover{
+    box-shadow: 1px 1px 16px 1px black;
+    transition: box-shadow 0.3s;
+  }
+
+  .active, .button1:hover {
+    background-color: #666;
+    color: white;
+  }

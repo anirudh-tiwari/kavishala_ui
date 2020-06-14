@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>profile</title>
+    <link rel="stylesheet" type="text/css" href="card_nav.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+        <div class="scrollmenu" >
+                <a class="button1" href="#home">Home</a>
+                <a class="button1" href="#news">News</a>
+                <a class="button1" href="#contact">Contact</a>
+                <a class="button1" href="#about">About</a>
+                <a class="button1" href="#support">Support</a>
+                <a class="button1" href="#blog">Blog</a>
+                <a class="button1" href="#tools">Tools</a>  
+                <a class="button1" href="#base">Base</a>
+                <a class="button1" href="#custom">Custom</a>
+                <a class="button1" href="#more">More</a>
+                <a class="button1" href="#logo">Logo</a>
+                <a class="button1" href="#friends">Friends</a>
+                <a class="button1" href="#partners">Partners</a>
+                <a class="button1" href="#people">People</a>
+                <a class="button1" href="#work">Work</a>
+          </div>
+
+
+        <div class="card container card_body" style="width: 15rem; color:orange; padding: 0px">
+                <img class="card-img-top" src="https://www.publicdomainpictures.net/pictures/30000/velka/blue-sky-1330598792xLu.jpg" alt="Card image cap">
+                <div class="card-body" style="padding-left: 10px;
+                padding-right: 15px; font-size: 16px; padding-bottom: 15px;">
+                  <h5 class="card-title " style="font-size: 0.75rem;">19 Dec 2020</h5>
+                  <p class="card-text card_text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn ">STARTUP</a>
+                </div>
+              </div>
+              <script>
+                // Add active class to the current button (highlight it)
+                var header = document.getElementsByClassName("scrollmenu");
+                var btns = header.getElementsByClassName("button1");
+                for (var i = 0; i < btns.length; i++) {
+                  btns[i].addEventListener("click", function() {
+                  var current = document.getElementsByClassName("active");
+                  if (current.length > 0) { 
+                    current[0].className = current[0].className.replace(" active", "");
+                  }
+                  this.className += " active";
+                  });
+                }
+                </script>
+              
+   </body>
+</html>
+          
