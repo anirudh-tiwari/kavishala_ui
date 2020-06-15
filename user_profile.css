@@ -62,7 +62,20 @@ html {
   position: absolute;
   margin: 0% !important;
 }
-
+.yo:hover{
+  color:rgb(0, 0, 0);
+}
+.btn{
+  color: rgb(242, 63, 45) !important;
+  background-color: rgb(255, 245, 244) !important;
+}
+.btn:hover{
+  color:darkred !important;
+}
+.ani:hover{
+  box-shadow: 1px 1px 16px 1px black;
+  transition: box-shadow 0.3s;
+}
 @media (min-width: 426px) and (max-width: 1023px) {
   .profile {
     width: 110px !important;
